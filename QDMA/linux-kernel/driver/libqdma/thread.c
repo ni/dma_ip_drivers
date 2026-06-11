@@ -39,7 +39,7 @@ int qdma_kthread_dump(struct qdma_kthread *thp, char *buf, int buflen,
 			thp->name, thp->cpu, thp->work_cnt);
 
 	if (detail)
-		;
+		{ ; }
 
 	unlock_thread(thp);
 
